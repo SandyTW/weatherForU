@@ -1,10 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -195,6 +188,7 @@ li{
 .detail-title{
     align-items: center;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .detail-title p{
@@ -251,46 +245,12 @@ hr{
     justify-content: center;
     margin-top: 28px;
 }
+#main-flex > div.city-detail > div.detail-title.d-flex > img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    display: none;
 
-/* RWD 500 */
-@media (max-width: 500px){
-    .wrap{
-        width: 100%;
-        
-    }
-
-    main{
-        width: 100%;
-    }
-
-    .logo{
-        width: 280px;
-        margin-top: 40px;
-    }
-
-    .city-detail{
-        display:none;
-    }
-
-    .every-sec{
-        display: flex;
-        justify-content:center;
-    }
-
-    .every-wrap{
-        width: 92%;
-        justify-content:space-around;
-    }
-
-    .every-wrap li{
-        width: 160px;
-    }
-
-    .every-min, .every-max{
-        font-size: 14px;
-    }
-
-    .every-text{
-        margin-right: 10px;
-    }
 }

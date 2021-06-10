@@ -287,7 +287,3 @@ function tabShift(startTime,startHour){
 		document.querySelector('#period3').textContent=TimeName.T18.C
 	};
 }
-
-
-
-
